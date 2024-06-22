@@ -1,9 +1,10 @@
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Nav";
+import { NextUIProvider } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <main>
+    <NextUIProvider>
       <Navbar />
-    </main>
+    </NextUIProvider>
   );
 }
