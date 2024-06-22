@@ -3,22 +3,22 @@
 }
 
 .nav-menu {
-  background-color: #640d6b; /* Tailwind color 'purple-700' */
-  height: auto; /* Auto height to fit the number of items */
+  background-color: #640d6b;
+  height: auto;
 }
 
 .nav-menu-item a {
   cursor: pointer;
-  color: white; /* Set text color to white */
-  display: block; /* Ensure the links are block elements */
-  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 .nav-menu-item.orange-bg a {
-  background-color: #ea580c; /* Orange background */
-  color: white; /* White text */
-  border-radius: 0.7rem; /* Rounded corners */
-  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  background-color: #ea580c;
+  color: white;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
   width: max-content;
   margin-left: 1rem;
 }
