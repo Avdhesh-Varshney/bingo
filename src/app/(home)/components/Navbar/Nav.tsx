@@ -29,13 +29,13 @@ const Nav: React.FC = () => {
       onMenuOpenChange={setIsMenuOpen}
       className="nav-container pb-2"
     >
-      <NavbarContent className="sm:hidden text-white p-2" justify="start">
+      <NavbarContent className="md:hidden text-white p-2" justify="start">
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
         />
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden pr-3" justify="center">
+      <NavbarContent className="md:hidden pr-3" justify="center">
         <NavbarBrand>
           <Image src={logo} alt="Logo" width={59} height={52} />
           <p className="ml-2 text-inherit tracking-wider font-mono text-orange-500 font-bold text-3xl">
@@ -44,7 +44,7 @@ const Nav: React.FC = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden md:flex gap-4" justify="center">
         <NavbarBrand>
           <Image src={logo} alt="Logo" width={59} height={52} />
           <p className="ml-2 text-inherit tracking-wider font-mono text-orange-500 font-bold text-3xl">
