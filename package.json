@@ -1,28 +1,19 @@
 {
   "name": "bingo",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Bingo online dual player game in NodeJS",
+  "main": "app.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "node app.js",
+    "debug": "nodemon app.js"
   },
+  "author": "Avdhesh Varshney",
+  "license": "ISC",
   "dependencies": {
-    "@nextui-org/react": "^2.4.2",
-    "framer-motion": "^11.2.11",
-    "next": "14.2.4",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.4",
-    "typescript": "^5"
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "socket.io": "^3.0.4"
   }
 }
